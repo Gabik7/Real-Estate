@@ -9,3 +9,6 @@ https://dribbble.com/shots/9072797-Search-Real-Estate-App/attachments/1168258?mo
 - Apple Sign In
 
 # Screenshots
+![login](./Resources/login.png)
+![home](./Resources/home.png)
+![detail](./Resources/detail.png)
