@@ -61,6 +61,15 @@ struct Login: View {
                 .clipShape(Capsule())
                 .padding(.horizontal, 40)
                 .offset(y: -70)
+                
+                Button(action: {
+                    withAnimation(.easeInOut) {
+                        loginData.log_Status = true
+                    }
+                }, label: {
+                    Text("Continue Without Login")
+                        .foregroundColor(Color.white)
+                })
             }
         }
     }
